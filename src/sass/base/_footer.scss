@@ -1,0 +1,48 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  border: 3px solid #F00;
+}
+
+.footer__contacts,
+.footer__infa {
+  display: flex;
+  flex-direction: column;
+
+  &:last-child {
+    align-items: center;
+  }
+}
+
+.footer__href:hover {
+  color: #F00;
+}
+
+.footer__inst {
+  background-image: url('../../assets/Icons/inst.png');
+  width: 49px;
+  height: 45px;
+}
+
+.footer__youtube {
+  background-image: url('../../assets/Icons/youtube.svg');
+  width: 55px;
+  height: 42px;
+}
+
+.footer__logo {
+  background-image: url('../../assets/logo.png');
+  width: 205px;
+  height: 174px;
+}
+
+.footer__title {
+  text-align: center;
+  font-family: Italianno;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

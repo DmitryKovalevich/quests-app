@@ -1,0 +1,46 @@
+.noauth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+  gap: 30px;
+}
+
+.noauth__text {
+  font-size: 128px;
+}
+
+.noauth__auth {
+  font-family: Italianno;
+  font-size: 40px;
+  border-radius: 100px;
+  border: 1px solid #F00;
+  background: #000;
+  padding: 10px 50px;
+  color: white;
+}
+
+.yesauth__title {
+  margin: 50px;
+  font-family: Italianno;
+  font-size: 96px;
+}
+
+.yesauth__infa {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  align-items: center;
+}
+
+.yesauth__name {
+  margin-right: 100px;
+}
+
+.yesauth__orders {
+  margin: 50px;
+  font-family: Italianno;
+  font-size: 96px;
+  text-align: center;
+  display: block;
+}

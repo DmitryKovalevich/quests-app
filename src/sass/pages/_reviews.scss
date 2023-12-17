@@ -1,0 +1,27 @@
+.reviews__row {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+}
+
+.review__img {
+  margin-left: 70px;
+}
+
+.review__btn {
+  display: block;
+  margin: auto;
+  font-size: 43px;
+  color: white;
+  border-radius: 100px;
+  border: 1px solid #F00;
+  background: transparent;
+  padding: 10px 50px;
+  margin-bottom: 30px;
+
+  &:hover {
+    background: #F00;
+  }
+}

@@ -1,0 +1,52 @@
+.basket__noauth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.basket__h1 {
+  font-size: 128px;
+  text-align: center;
+  font-family: Italianno;
+}
+
+.basket__h2 {
+  font-size: 48px;
+}
+
+.basket__btn {
+  font-family: Italianno;
+  font-size: 40px;
+  padding: 10px 30px;
+  background: black;
+  border-radius: 100px;
+  border: 1px solid #F00;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.fullbasket {
+  background-image: url("../../assets/MainPageFon.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 40%;
+  margin: auto;
+}
+
+.basket__information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  margin-top: 20px;
+}
+
+.basket__percent,
+.basket__date {
+  font-family: Italianno;
+  font-size: 50px;
+}
